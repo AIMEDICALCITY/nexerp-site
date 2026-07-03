@@ -2020,6 +2020,99 @@ a:hover { color: var(--green); }
     .section-header { margin-bottom: 40px; }
 }
 
+/* ---------- V2 · Encart Agents IA Odoo × Shopify (membre OCA) ---------- */
+.oca-banner {
+    margin-top: 24px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--gold);
+    border-radius: var(--radius);
+    padding: 36px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.oca-banner-text { flex: 1 1 480px; }
+.oca-banner-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin-bottom: 14px;
+}
+.oca-banner-eyebrow::before {
+    content: '';
+    width: 36px;
+    height: 1px;
+    background: var(--gold);
+    flex-shrink: 0;
+}
+.oca-banner h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 10px;
+}
+.oca-banner p {
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--text-muted);
+    max-width: 640px;
+    margin-bottom: 22px;
+}
+.oca-banner p strong { color: var(--text); }
+.oca-badge {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 28px 32px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    max-width: 250px;
+    text-align: center;
+}
+.oca-badge img { height: 46px; width: auto; }
+.oca-badge span {
+    font-size: 13px;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+.oca-badge span strong { color: var(--text); }
+@media (max-width: 640px) {
+    .oca-banner { padding: 28px 22px; }
+    .oca-badge { width: 100%; max-width: none; }
+}
+
+/* Footer : mention membre OCA (fond encre → logo sur pastille blanche) */
+.footer-oca {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.footer-oca img {
+    height: 32px;
+    width: auto;
+    background: #fff;
+    padding: 5px 9px;
+    border-radius: 2px;
+}
+.footer-oca p {
+    font-size: 12.5px;
+    color: #94a3b8;
+    line-height: 1.5;
+    margin: 0;
+}
+
 @media (max-width: 480px) {
     .logo { height: 44px; }
     .stat-number { font-size: 44px; }
