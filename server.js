@@ -76,6 +76,7 @@ const SUBJECT_LABELS = {
     sprint: 'Automation Sprint (8-12 sem)',
     factory: 'IA Factory CEGID Retail (6 mois)',
     run: 'Run & AgentOps (mensuel)',
+    odoo: 'Agents IA Odoo × Shopify',
     formation: 'Formation IA / CEGID Retail',
     recrutement: 'Recrutement expert',
     architecture: 'Architecture',

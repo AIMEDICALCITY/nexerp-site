@@ -2092,6 +2092,12 @@ a:hover { color: var(--green); }
     .oca-badge { width: 100%; max-width: none; }
 }
 
+/* Section dédiée #odoo-shopify : rythme vertical */
+#odoo-shopify .odoo-usecases { margin-bottom: 64px; }
+#odoo-shopify .odoo-offers { margin-bottom: 48px; }
+#odoo-shopify .oca-banner { margin-top: 0; }
+.odoo-subhead { margin-bottom: 24px; }
+
 /* Footer : mention membre OCA (fond encre → logo sur pastille blanche) */
 .footer-oca {
     margin-top: 20px;

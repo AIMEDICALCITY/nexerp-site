@@ -21,7 +21,7 @@
     <meta name="twitter:description" content="Agents IA supervisés par experts CEGID Retail pour le retail spécialisé.">
 
     <link rel="icon" type="image/png" href="/assets/nexerp-logo.png">
-    <link rel="stylesheet" href="/styles.css?v=20260702">
+    <link rel="stylesheet" href="/styles.css?v=20260703">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,600&display=swap" rel="stylesheet">
@@ -219,7 +219,7 @@
             {
                 "@type": "OfferCatalog",
                 "@id": "https://nexerp.fr/#service-catalog",
-                "name": "Offres NEXERP — IA Factory pour CEGID Retail",
+                "name": "Offres NEXERP — Agents IA (CEGID Retail · Odoo × Shopify)",
                 "itemListElement": [
                     {
                         "@type": "Offer",
@@ -258,6 +258,16 @@
                             "name": "Run & AgentOps",
                             "serviceType": "Run — abonnement mensuel",
                             "description": "Supervision, maintenance, évaluation et amélioration continue des agents en production, avec SLA, dashboard et reporting ROI.",
+                            "provider": { "@id": "https://nexerp.fr/#organization" }
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Agents IA Odoo × Shopify",
+                            "serviceType": "Connecteur agentique — diagnostic 2 semaines, déploiement 4 à 8 semaines, run mensuel",
+                            "description": "Agents IA connectant Odoo et Shopify : synchronisation du catalogue, des stocks, des commandes, des clients et réconciliation financière, sous validation humaine (HITL). NEXERP est membre de l'Odoo Community Association (OCA).",
                             "provider": { "@id": "https://nexerp.fr/#organization" }
                         }
                     }
@@ -483,19 +493,6 @@
                 <a href="https://portail.nexerp.fr" target="_blank" rel="noopener" class="portail-banner-cta">Accéder au portail métier →</a>
             </div>
 
-            <!-- Agents IA Odoo × Shopify — membre OCA -->
-            <div class="oca-banner">
-                <div class="oca-banner-text">
-                    <span class="oca-banner-eyebrow">Agents IA Odoo × Shopify</span>
-                    <h3>NEXERP commercialise des Agents IA connectant Odoo et Shopify</h3>
-                    <p>Synchronisation du catalogue, des stocks et des commandes entre votre ERP <strong>Odoo</strong> et votre boutique <strong>Shopify</strong>, opérée par des Agents IA supervisés — avec la même exigence de gouvernance et de validation humaine que nos agents CEGID Retail.</p>
-                    <a href="#contact?besoin=autre" class="btn btn-secondary">Parler de votre projet Odoo ↔ Shopify →</a>
-                </div>
-                <div class="oca-badge">
-                    <img src="/assets/oca-logo.png" alt="Logo OCA — Odoo Community Association" loading="lazy">
-                    <span>Membre de l'<strong>Odoo Community Association</strong></span>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -528,6 +525,81 @@
                 <div class="domain-card"><div class="domain-icon">🌍</div><h3>Localisation &amp; Fiscalité</h3><p>Conformité TVA multi-pays, contrôle taxes spécifiques, MAJ réglementaires.</p></div>
                 <div class="domain-card"><div class="domain-icon">💼</div><h3>Finance &amp; Contrôle de Gestion</h3><p>Rapprochement compta, contrôle écritures, reporting groupe.</p></div>
                 <div class="domain-card"><div class="domain-icon">🔌</div><h3>Outils Techniques &amp; Intégration</h3><p>Monitoring interfaces, détection échecs, documentation technique.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AGENTS IA ODOO × SHOPIFY (MEMBRE OCA) ========== -->
+    <section class="section section-alt" id="odoo-shopify">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Agents IA Odoo × Shopify · Membre OCA</span>
+                <h2 class="section-title">Connectez Odoo et Shopify avec des Agents IA supervisés.</h2>
+                <p class="section-intro">
+                    NEXERP commercialise des Agents IA connectant <strong>Odoo</strong> et <strong>Shopify</strong> :
+                    catalogue, stocks, commandes, clients et finance synchronisés sous validation humaine —
+                    avec la même gouvernance que nos agents CEGID Retail.
+                </p>
+            </div>
+
+            <div class="domains-grid odoo-usecases">
+                <div class="domain-card"><h3>Catalogue produits</h3><p>Publication et enrichissement des fiches Odoo vers Shopify : variantes, images, descriptions, collections.</p></div>
+                <div class="domain-card"><h3>Stocks &amp; disponibilités</h3><p>Synchronisation multi-entrepôts en quasi temps réel, seuils de sécurité, prévention des surventes.</p></div>
+                <div class="domain-card"><h3>Commandes &amp; retours</h3><p>Import des commandes Shopify en bons de commande Odoo, statuts d'expédition, gestion des retours et avoirs.</p></div>
+                <div class="domain-card"><h3>Clients &amp; segments</h3><p>Unification des fiches clients, historiques d'achat, conditions B2B et listes de prix.</p></div>
+                <div class="domain-card"><h3>Prix &amp; promotions</h3><p>Cohérence tarifaire entre l'ERP et la boutique, campagnes promo, taxes et arrondis par marché.</p></div>
+                <div class="domain-card"><h3>Réconciliation financière</h3><p>Rapprochement des versements Shopify (payouts) avec les écritures Odoo — validation humaine systématique.</p></div>
+            </div>
+
+            <span class="section-eyebrow odoo-subhead">Offres packagées Odoo × Shopify</span>
+            <div class="offers-grid odoo-offers">
+                <article class="offer-card">
+                    <header><span class="offer-tag">2 semaines</span><h3>Diagnostic Odoo × Shopify</h3></header>
+                    <p class="offer-pitch">Audit des flux entre votre ERP Odoo et votre boutique Shopify : cartographie, écarts de données, risques de survente, plan d'automatisation.</p>
+                    <ul class="offer-list">
+                        <li>Cartographie des flux catalogue / stocks / commandes</li>
+                        <li>Audit qualité des données produits</li>
+                        <li>Backlog d'agents priorisé par ROI</li>
+                        <li>Restitution dirigeants 1 page</li>
+                    </ul>
+                    <a href="#contact?besoin=odoo" class="btn btn-secondary offer-cta">Demander un diagnostic →</a>
+                </article>
+                <article class="offer-card">
+                    <header><span class="offer-tag offer-tag-hot">4 à 8 semaines</span><h3>Connecteur agentique Odoo ↔ Shopify</h3></header>
+                    <p class="offer-pitch">Déployer vos premiers Agents IA de synchronisation en production, supervisés par un expert — du design à la recette sur vos données réelles.</p>
+                    <ul class="offer-list">
+                        <li>Agents catalogue, stocks &amp; commandes</li>
+                        <li>Validation humaine (HITL) sur les écritures sensibles</li>
+                        <li>Recette sur vos données réelles</li>
+                        <li>Mesure ROI immédiate</li>
+                    </ul>
+                    <a href="#contact?besoin=odoo" class="btn btn-primary offer-cta">Lancer le connecteur →</a>
+                </article>
+                <article class="offer-card">
+                    <header><span class="offer-tag">Mensuel</span><h3>Run &amp; AgentOps e-commerce</h3></header>
+                    <p class="offer-pitch">Superviser, maintenir et améliorer en continu vos agents Odoo × Shopify en production.</p>
+                    <ul class="offer-list">
+                        <li>Supervision des synchronisations + alertes</li>
+                        <li>Monitoring coûts, erreurs, dérives</li>
+                        <li>Suivi des évolutions d'API Odoo &amp; Shopify</li>
+                        <li>Reporting mensuel dirigeants</li>
+                    </ul>
+                    <a href="#contact?besoin=odoo" class="btn btn-secondary offer-cta">Superviser mes flux →</a>
+                </article>
+            </div>
+
+            <!-- Adhésion OCA -->
+            <div class="oca-banner">
+                <div class="oca-banner-text">
+                    <span class="oca-banner-eyebrow">Écosystème open source</span>
+                    <h3>NEXERP est membre de l'Odoo Community Association</h3>
+                    <p>Un engagement dans l'écosystème open source Odoo : nos agents s'appuient sur les standards et modules de la communauté <strong>OCA</strong> pour des intégrations durables, auditables et sans boîte noire.</p>
+                    <a href="#contact?besoin=odoo" class="btn btn-secondary">Parler de votre projet Odoo ↔ Shopify →</a>
+                </div>
+                <div class="oca-badge">
+                    <img src="/assets/oca-logo.png" alt="Logo OCA — Odoo Community Association" loading="lazy">
+                    <span>Membre de l'<strong>Odoo Community Association</strong></span>
+                </div>
             </div>
         </div>
     </section>
@@ -925,6 +997,7 @@
                                 <option value="sprint">Automation Sprint (8-12 sem)</option>
                                 <option value="factory">IA Factory CEGID Retail (6 mois)</option>
                                 <option value="run">Run &amp; AgentOps (mensuel)</option>
+                                <option value="odoo">Agents IA Odoo × Shopify</option>
                                 <option value="formation">Formation IA / CEGID Retail</option>
                                 <option value="recrutement">Recrutement expert</option>
                                 <option value="architecture">Architecture</option>
@@ -964,6 +1037,7 @@
                     <a href="#offres">Automation Sprint</a>
                     <a href="#offres">IA Factory CEGID Retail</a>
                     <a href="#offres">Run &amp; AgentOps</a>
+                    <a href="#odoo-shopify">Agents IA Odoo × Shopify</a>
                     <a href="https://portail.nexerp.fr" target="_blank" rel="noopener">Portail métier ↗</a>
                 </div>
                 <div class="footer-col">
