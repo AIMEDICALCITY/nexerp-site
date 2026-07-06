@@ -2270,6 +2270,15 @@ a:hover { color: var(--green); }
     color: var(--ink);
     line-height: 1;
 }
+#bayon .bayon-scope { margin-bottom: 32px; }
+.bayon-criterion .criterion-synthese {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--ink);
+}
 
 /* Footer : mention membre OCA (fond encre → logo sur pastille blanche) */
 .footer-oca {
