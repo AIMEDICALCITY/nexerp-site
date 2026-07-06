@@ -1067,27 +1067,40 @@
                                 <option>Directeur métier</option><option>Manager</option><option>Autre</option>
                             </select>
                         </div>
-                        <div class="form-group"><label for="domain">Domaine CEGID Retail *</label>
+                        <div class="form-group"><label for="domain">Domaine concerné — CEGID Retail / ERP Odoo *</label>
                             <select id="domain" name="domain" required>
                                 <option value="">— Domaine concerné —</option>
-                                <option value="referentiel">Référentiel Produit &amp; Stock</option>
-                                <option value="tarifs">Tarifs, Ventes &amp; Promotions</option>
-                                <option value="reassort">Réassortiment Magasins</option>
-                                <option value="transversales">Fonctionnalités Transversales</option>
-                                <option value="securite">Utilisateurs, Droits &amp; Sécurité</option>
-                                <option value="reporting">Reporting, Analyses &amp; Alertes</option>
-                                <option value="y2">Environnement Y2 &amp; Paramétrage</option>
-                                <option value="crm">CRM &amp; Clienteling</option>
-                                <option value="sav">SAV &amp; Service Client</option>
-                                <option value="omni">Pilotage Omni-Commerce</option>
-                                <option value="multisociete">Multisociété &amp; Franchise</option>
-                                <option value="achats">Achats &amp; Sourcing</option>
-                                <option value="pos">Point de Vente / POS</option>
-                                <option value="budget">Budget, Prévisions &amp; Personnel</option>
-                                <option value="localisation">Localisation &amp; Fiscalité</option>
-                                <option value="finance">Finance &amp; Contrôle de Gestion</option>
-                                <option value="technique">Outils Techniques &amp; Intégration</option>
-                                <option value="multi">Plusieurs domaines</option>
+                                <optgroup label="CEGID Retail">
+                                    <option value="referentiel">Référentiel Produit &amp; Stock</option>
+                                    <option value="tarifs">Tarifs, Ventes &amp; Promotions</option>
+                                    <option value="reassort">Réassortiment Magasins</option>
+                                    <option value="transversales">Fonctionnalités Transversales</option>
+                                    <option value="securite">Utilisateurs, Droits &amp; Sécurité</option>
+                                    <option value="reporting">Reporting, Analyses &amp; Alertes</option>
+                                    <option value="y2">Environnement Y2 &amp; Paramétrage</option>
+                                    <option value="crm">CRM &amp; Clienteling</option>
+                                    <option value="sav">SAV &amp; Service Client</option>
+                                    <option value="omni">Pilotage Omni-Commerce</option>
+                                    <option value="multisociete">Multisociété &amp; Franchise</option>
+                                    <option value="achats">Achats &amp; Sourcing</option>
+                                    <option value="pos">Point de Vente / POS</option>
+                                    <option value="budget">Budget, Prévisions &amp; Personnel</option>
+                                    <option value="localisation">Localisation &amp; Fiscalité</option>
+                                    <option value="finance">Finance &amp; Contrôle de Gestion</option>
+                                    <option value="technique">Outils Techniques &amp; Intégration</option>
+                                    <option value="multi">Plusieurs domaines CEGID Retail</option>
+                                </optgroup>
+                                <optgroup label="ERP Odoo">
+                                    <option value="odoo-vente">Ventes &amp; Commandes</option>
+                                    <option value="odoo-catalogue">Catalogue &amp; Produits</option>
+                                    <option value="odoo-clients">Clients &amp; CRM</option>
+                                    <option value="odoo-stock">Stock &amp; Logistique</option>
+                                    <option value="odoo-achats">Achats</option>
+                                    <option value="odoo-compta">Comptabilité &amp; Finance</option>
+                                    <option value="odoo-pos">Point de Vente / POS</option>
+                                    <option value="odoo-ecommerce">E-commerce &amp; Intégration (Shopify)</option>
+                                    <option value="odoo-multi">Plusieurs domaines Odoo</option>
+                                </optgroup>
                             </select>
                         </div>
                     </div>

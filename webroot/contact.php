@@ -50,7 +50,13 @@ $DOMAINS = [
     'y2'=>'Environnement Y2 & Paramétrage','crm'=>'CRM & Clienteling','sav'=>'SAV & Service Client','omni'=>'Pilotage Omni-Commerce',
     'multisociete'=>'Multisociété & Franchise','achats'=>'Achats & Sourcing','pos'=>'Point de Vente / POS',
     'budget'=>'Budget, Prévisions & Personnel','localisation'=>'Localisation & Fiscalité','finance'=>'Finance & Contrôle de Gestion',
-    'technique'=>'Outils Techniques & Intégration','multi'=>'Plusieurs domaines',
+    'technique'=>'Outils Techniques & Intégration','multi'=>'Plusieurs domaines CEGID Retail',
+    // ERP Odoo
+    'odoo-vente'=>'Odoo — Ventes & Commandes','odoo-catalogue'=>'Odoo — Catalogue & Produits',
+    'odoo-clients'=>'Odoo — Clients & CRM','odoo-stock'=>'Odoo — Stock & Logistique',
+    'odoo-achats'=>'Odoo — Achats','odoo-compta'=>'Odoo — Comptabilité & Finance',
+    'odoo-pos'=>'Odoo — Point de Vente / POS','odoo-ecommerce'=>'Odoo — E-commerce & Intégration (Shopify)',
+    'odoo-multi'=>'Odoo — Plusieurs domaines',
 ];
 $PROBLEMS = [
     'workflow-manuel'=>'Workflow manuel','mobilisation-equipes'=>'Mobilisation forte des équipes métiers','bugs'=>'Bugs récurrents',
@@ -67,7 +73,7 @@ $text = "Nouvelle demande qualifiée depuis nexerp.fr\n"
       . "Email          : $email\n"
       . "Société        : $company\n"
       . "Fonction       : $role\n\n"
-      . "Domaine CEGID Retail : $domainLabel\n"
+      . "Domaine concerné : $domainLabel\n"
       . "Problème       : $problemLabel\n"
       . "Type besoin    : $subjectLabel\n\n"
       . "Message :\n$message\n\n"
@@ -83,7 +89,7 @@ $html = '<div style="font-family:-apple-system,sans-serif;max-width:640px;margin
       . '<p><strong>Email :</strong> <a href="mailto:' . $e($email) . '">' . $e($email) . '</a></p>'
       . '<p><strong>Société :</strong> ' . $e($company) . '</p>'
       . '<p><strong>Fonction :</strong> ' . $e($role) . '</p>'
-      . '<p><strong>Domaine CEGID Retail :</strong> ' . $e($domainLabel) . '</p>'
+      . '<p><strong>Domaine concerné :</strong> ' . $e($domainLabel) . '</p>'
       . '<p><strong>Problème :</strong> ' . $e($problemLabel) . '</p>'
       . '<p><strong>Type besoin :</strong> <strong style="color:#d97706;">' . $e($subjectLabel) . '</strong></p>'
       . '<hr style="border:none;border-top:1px solid #e2e8f0;margin:16px 0;">'

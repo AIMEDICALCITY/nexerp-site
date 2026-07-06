@@ -102,7 +102,17 @@ const DOMAIN_LABELS = {
     localisation: 'Localisation & Fiscalité',
     finance: 'Finance & Contrôle de Gestion',
     technique: 'Outils Techniques & Intégration',
-    multi: 'Plusieurs domaines',
+    multi: 'Plusieurs domaines CEGID Retail',
+    // ERP Odoo
+    'odoo-vente': 'Odoo — Ventes & Commandes',
+    'odoo-catalogue': 'Odoo — Catalogue & Produits',
+    'odoo-clients': 'Odoo — Clients & CRM',
+    'odoo-stock': 'Odoo — Stock & Logistique',
+    'odoo-achats': 'Odoo — Achats',
+    'odoo-compta': 'Odoo — Comptabilité & Finance',
+    'odoo-pos': 'Odoo — Point de Vente / POS',
+    'odoo-ecommerce': 'Odoo — E-commerce & Intégration (Shopify)',
+    'odoo-multi': 'Odoo — Plusieurs domaines',
 };
 
 const PROBLEM_LABELS = {
@@ -160,7 +170,7 @@ app.post('/api/contact', formLimiter, async (req, res) => {
             `Société        : ${company}`,
             `Fonction       : ${role}`,
             '',
-            `Domaine CEGID Retail : ${domainLabel}`,
+            `Domaine concerné : ${domainLabel}`,
             `Problème       : ${problemLabel}`,
             `Type besoin    : ${subjectLabel}`,
             '',
@@ -183,7 +193,7 @@ app.post('/api/contact', formLimiter, async (req, res) => {
                         <tr><td style="padding:6px 0;color:#64748b;"><strong>Email</strong></td><td><a href="mailto:${escapeHtml(email)}" style="color:#1e3a8a;">${escapeHtml(email)}</a></td></tr>
                         <tr><td style="padding:6px 0;color:#64748b;"><strong>Société</strong></td><td>${escapeHtml(company)}</td></tr>
                         <tr><td style="padding:6px 0;color:#64748b;"><strong>Fonction</strong></td><td>${escapeHtml(role)}</td></tr>
-                        <tr><td style="padding:6px 0;color:#64748b;"><strong>Domaine CEGID Retail</strong></td><td>${escapeHtml(domainLabel)}</td></tr>
+                        <tr><td style="padding:6px 0;color:#64748b;"><strong>Domaine concerné</strong></td><td>${escapeHtml(domainLabel)}</td></tr>
                         <tr><td style="padding:6px 0;color:#64748b;"><strong>Problème</strong></td><td>${escapeHtml(problemLabel)}</td></tr>
                         <tr><td style="padding:6px 0;color:#64748b;"><strong>Type besoin</strong></td><td><strong style="color:#d97706;">${escapeHtml(subjectLabel)}</strong></td></tr>
                     </table>
@@ -238,7 +248,7 @@ app.post('/api/lead-magnet', formLimiter, async (req, res) => {
             `Identité             : ${firstName} ${lastName}`,
             `Email                : ${email}`,
             `Société              : ${company}`,
-            `Domaine CEGID Retail : ${domainLabel}`,
+            `Domaine concerné : ${domainLabel}`,
             `Irritant             : ${irritantLabel}`,
             '',
             '═══════════════════════════════════════',
@@ -256,7 +266,7 @@ app.post('/api/lead-magnet', formLimiter, async (req, res) => {
                     <p><strong>Identité :</strong> ${escapeHtml(firstName)} ${escapeHtml(lastName)}</p>
                     <p><strong>Email :</strong> <a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></p>
                     <p><strong>Société :</strong> ${escapeHtml(company)}</p>
-                    <p><strong>Domaine CEGID Retail :</strong> ${escapeHtml(domainLabel)}</p>
+                    <p><strong>Domaine concerné :</strong> ${escapeHtml(domainLabel)}</p>
                     <p><strong>Irritant :</strong> ${escapeHtml(irritantLabel)}</p>
                     <hr style="border:none;border-top:1px solid #e2e8f0;margin:16px 0;">
                     <p style="color:#d97706;"><strong>⚠ Action requise :</strong> envoyer la checklist PDF à ce contact.</p>
