@@ -77,6 +77,7 @@ const SUBJECT_LABELS = {
     factory: 'IA Factory CEGID Retail (6 mois)',
     run: 'Run & AgentOps (mensuel)',
     odoo: 'Agents IA Odoo × Shopify',
+    bayon: 'Pilote Bayon — MDM agentique (4 sem)',
     formation: 'Formation IA / CEGID Retail',
     recrutement: 'Recrutement expert',
     architecture: 'Architecture',

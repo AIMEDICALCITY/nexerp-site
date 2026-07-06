@@ -21,7 +21,7 @@
     <meta name="twitter:description" content="Agents IA supervisés par experts CEGID Retail pour le retail spécialisé.">
 
     <link rel="icon" type="image/png" href="/assets/nexerp-logo.png">
-    <link rel="stylesheet" href="/styles.css?v=20260703">
+    <link rel="stylesheet" href="/styles.css?v=20260706">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,600&display=swap" rel="stylesheet">
@@ -66,7 +66,9 @@
                     "Gouvernance de l'IA (RGPD, AI Act, DORA)",
                     "Odoo",
                     "Shopify",
-                    "Agents IA d'intégration Odoo–Shopify"
+                    "Agents IA d'intégration Odoo–Shopify",
+                    "Master Data Management (MDM) agentique",
+                    "Bayon (plateforme MDM agentique)"
                 ],
                 "memberOf": {
                     "@type": "Organization",
@@ -110,6 +112,26 @@
                     "Assistant Hermes — réponses sourcées sur CEGID Retail (RAG)",
                     "Assistant Réconciliation Retail ↔ Compta avec validation humaine (HITL)",
                     "Gestion des accès par rôle et périmètre"
+                ],
+                "provider": { "@id": "https://nexerp.fr/#organization" },
+                "publisher": { "@id": "https://nexerp.fr/#organization" }
+            },
+            {
+                "@type": "SoftwareApplication",
+                "@id": "https://nexerp.fr/#bayon",
+                "name": "Bayon — MDM agentique",
+                "url": "https://nexerp.fr/#bayon",
+                "applicationCategory": "BusinessApplication",
+                "operatingSystem": "Web",
+                "inLanguage": "fr-FR",
+                "description": "Plateforme de gestion des données maîtres (MDM) agentique de NEXERP : 9 agents spécialisés synchronisent Odoo et les canaux e-commerce en temps réel (capture de changements CDC), en autonomie supervisée par des humains (verdicts AUTO / RECOMMANDÉ / OBLIGATOIRE selon montant, risque, impact et réversibilité) avec journal d'audit chaîné cryptographiquement, archivage légal FEC 5 ans et RGPD par conception. 55 interfaces testées de bout en bout, 281 tests automatisés, propagation < 30 s.",
+                "featureList": [
+                    "9 agents spécialisés à périmètres exclusifs (produit, stock, commande, client, finance, retour, pricing, reporting, planification)",
+                    "Synchronisation temps réel Odoo ↔ e-commerce par capture de changements (CDC)",
+                    "Gouvernance humaine calibrée : verdicts AUTO / RECOMMANDÉ / OBLIGATOIRE et console d'approbation",
+                    "Processus compensables (sagas annulables étape par étape)",
+                    "Journal d'audit infalsifiable, archivage FEC 5 ans (AES-256, WORM), RGPD par conception",
+                    "Déploiement progressif en 3 vagues : observation, écriture à blanc, activation par domaine"
                 ],
                 "provider": { "@id": "https://nexerp.fr/#organization" },
                 "publisher": { "@id": "https://nexerp.fr/#organization" }
@@ -568,6 +590,7 @@
                     <header><span class="offer-tag offer-tag-hot">4 à 8 semaines</span><h3>Connecteur agentique Odoo ↔ Shopify</h3></header>
                     <p class="offer-pitch">Déployer vos premiers Agents IA de synchronisation en production, supervisés par un expert — du design à la recette sur vos données réelles.</p>
                     <ul class="offer-list">
+                        <li>Propulsé par <a href="#bayon">Bayon, notre plateforme MDM agentique</a></li>
                         <li>Agents catalogue, stocks &amp; commandes</li>
                         <li>Validation humaine (HITL) sur les écritures sensibles</li>
                         <li>Recette sur vos données réelles</li>
@@ -599,6 +622,68 @@
                 <div class="oca-badge">
                     <img src="/assets/oca-logo.png" alt="Logo OCA — Odoo Community Association" loading="lazy">
                     <span>Membre de l'<strong>Odoo Community Association</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== BAYON — MDM AGENTIQUE ========== -->
+    <section class="section" id="bayon">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-eyebrow">Produit · Bayon — MDM agentique</span>
+                <h2 class="section-title">Vos données maîtres, synchronisées par des agents. Gouvernées par des humains.</h2>
+                <p class="section-intro">
+                    <strong>Bayon</strong> est la plateforme <strong>MDM agentique</strong> de NEXERP : elle pilote vos données
+                    d'entreprise en autonomie supervisée, réconcilie <strong>Odoo</strong> et vos canaux de vente en temps réel,
+                    sous contrôle humain et de façon auditable. C'est le moteur de notre offre Agents IA Odoo × Shopify.
+                </p>
+            </div>
+
+            <div class="domains-grid bayon-pillars">
+                <div class="domain-card"><h3>Temps réel, pas batch</h3><p>Capture des changements (CDC) à la source : chaque création, modification ou commande est traitée en continu — fini les synchros horaires et les surventes entre deux passages.</p></div>
+                <div class="domain-card"><h3>Gouverné, pas subi</h3><p>Chaque action sensible passe une matrice de contrôle. L'IA propose, l'humain dispose — depuis une console d'approbation, avec des seuils ajustables par votre DAF.</p></div>
+                <div class="domain-card"><h3>Auditable, par construction</h3><p>Chaque décision est journalisée dans un registre chaîné cryptographiquement. Archivage légal 5 ans (FEC), RGPD par conception, accès gouvernés par rôle.</p></div>
+            </div>
+
+            <div class="stats-grid bayon-stats">
+                <div class="stat"><div class="stat-number">9</div><div class="stat-label">agents spécialisés, périmètres exclusifs, zéro chevauchement</div></div>
+                <div class="stat"><div class="stat-number">55</div><div class="stat-label">interfaces testées de bout en bout — couverture 100 %</div></div>
+                <div class="stat"><div class="stat-number">281</div><div class="stat-label">tests automatisés verts à chaque changement de code</div></div>
+                <div class="stat"><div class="stat-number">&lt; 30 s</div><div class="stat-label">de propagation d'un changement, alerté au-delà</div></div>
+            </div>
+
+            <span class="section-eyebrow odoo-subhead">La signature Bayon — l'humain dans la boucle, calibré au réel</span>
+            <div class="verdicts-grid">
+                <div class="verdict-card">
+                    <span class="verdict-chip verdict-auto">Auto</span>
+                    <h4>Commande web de 89 €, stock ajusté de 3 unités</h4>
+                    <p>L'agent exécute immédiatement. Tracé, mais sans friction.</p>
+                </div>
+                <div class="verdict-card">
+                    <span class="verdict-chip verdict-reco">Recommandé</span>
+                    <h4>Remboursement de 150 €, changement de prix visible</h4>
+                    <p>L'agent exécute et signale — un œil humain est conseillé, jamais bloquant.</p>
+                </div>
+                <div class="verdict-card">
+                    <span class="verdict-chip verdict-oblig">Obligatoire</span>
+                    <h4>Remboursement de 800 €, écriture comptable, export RGPD</h4>
+                    <p>Rien ne part sans approbation dans la console. Refus = annulation propre de toute la chaîne.</p>
+                </div>
+            </div>
+            <p class="verdicts-note">Chaque action est notée sur quatre critères — montant, risque, impact, réversibilité. 8 points de contrôle métier, seuils ajustables par votre direction financière — pas par le fournisseur.</p>
+
+            <!-- CTA pilote -->
+            <div class="oca-banner">
+                <div class="oca-banner-text">
+                    <span class="oca-banner-eyebrow">Pilote de 4 semaines</span>
+                    <h3>Commencez par regarder.</h3>
+                    <p>Branchement <strong>en observation</strong> sur votre Odoo — aucune écriture — diagnostic des écarts avec votre boutique, et démonstration de la console de gouvernance sur vos propres flux. Retour arrière en moins de 15 minutes, à tout moment.</p>
+                    <a href="#contact?besoin=bayon" class="btn btn-primary">Demander un pilote Bayon →</a>
+                </div>
+                <div class="oca-badge">
+                    <span class="bayon-wordmark">Bayon</span>
+                    <span>Déjà en production — branché sur un <strong>Odoo 19</strong> et une boutique <strong>Shopify</strong> réels, sous supervision continue.</span>
                 </div>
             </div>
         </div>
@@ -998,6 +1083,7 @@
                                 <option value="factory">IA Factory CEGID Retail (6 mois)</option>
                                 <option value="run">Run &amp; AgentOps (mensuel)</option>
                                 <option value="odoo">Agents IA Odoo × Shopify</option>
+                                <option value="bayon">Pilote Bayon — MDM agentique (4 sem)</option>
                                 <option value="formation">Formation IA / CEGID Retail</option>
                                 <option value="recrutement">Recrutement expert</option>
                                 <option value="architecture">Architecture</option>
@@ -1038,6 +1124,7 @@
                     <a href="#offres">IA Factory CEGID Retail</a>
                     <a href="#offres">Run &amp; AgentOps</a>
                     <a href="#odoo-shopify">Agents IA Odoo × Shopify</a>
+                    <a href="#bayon">Bayon — MDM agentique</a>
                     <a href="https://portail.nexerp.fr" target="_blank" rel="noopener">Portail métier ↗</a>
                 </div>
                 <div class="footer-col">

@@ -2098,6 +2098,62 @@ a:hover { color: var(--green); }
 #odoo-shopify .oca-banner { margin-top: 0; }
 .odoo-subhead { margin-bottom: 24px; }
 
+/* ---------- V2 · Section Bayon (MDM agentique) ---------- */
+#bayon .bayon-pillars { margin-bottom: 56px; }
+#bayon .bayon-stats { margin-bottom: 64px; }
+#bayon .oca-banner { margin-top: 0; }
+.verdicts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-bottom: 16px;
+}
+.verdict-card {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 26px 24px;
+}
+.verdict-chip {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 2px;
+    margin-bottom: 14px;
+}
+.verdict-auto { background: rgba(21, 128, 61, 0.07); color: var(--green); border: 1px solid rgba(21, 128, 61, 0.28); }
+.verdict-reco { background: rgba(217, 119, 6, 0.07); color: var(--gold); border: 1px solid rgba(217, 119, 6, 0.32); }
+.verdict-oblig { background: rgba(30, 58, 138, 0.07); color: var(--navy); border: 1px solid rgba(30, 58, 138, 0.28); }
+.verdict-card h4 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+.verdict-card p {
+    font-size: 14px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+.verdicts-note {
+    font-size: 13.5px;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: 56px;
+}
+.bayon-wordmark {
+    font-family: var(--serif);
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--ink);
+    line-height: 1;
+}
+
 /* Footer : mention membre OCA (fond encre → logo sur pastille blanche) */
 .footer-oca {
     margin-top: 20px;
