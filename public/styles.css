@@ -2098,6 +2098,55 @@ a:hover { color: var(--green); }
 #odoo-shopify .oca-banner { margin-top: 0; }
 .odoo-subhead { margin-bottom: 24px; }
 
+/* ---------- V2 · IA Factory : deux fondations (RAG + MDM agentique) ---------- */
+.factory-foundations {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.foundation-card {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-top: 2px solid var(--gold-light);
+    border-radius: var(--radius);
+    padding: 36px 32px;
+}
+.foundation-num {
+    display: block;
+    font-family: var(--serif);
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--gold-light);
+    line-height: 1;
+    margin-bottom: 16px;
+}
+.foundation-card h3 {
+    font-family: var(--serif);
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 12px;
+}
+.foundation-card p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    line-height: 1.65;
+    margin: 0;
+}
+.foundation-card a {
+    color: var(--gold-light);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.foundation-card a:hover { color: #fff; }
+.factory-more {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.7;
+    max-width: 820px;
+}
+
 /* ---------- V2 · Domaines CEGID : grille compacte (noms seuls) ---------- */
 .domains-compact { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; }
 .domains-compact .domain-card {
