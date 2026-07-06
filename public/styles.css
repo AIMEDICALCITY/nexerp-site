@@ -2098,6 +2098,55 @@ a:hover { color: var(--green); }
 #odoo-shopify .oca-banner { margin-top: 0; }
 .odoo-subhead { margin-bottom: 24px; }
 
+/* ---------- V2 · Approche MDM : encart + figures exhibits ---------- */
+.approche-callout {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-top: 2px solid var(--gold);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    margin-bottom: 40px;
+}
+.approche-callout p {
+    font-family: var(--serif);
+    font-size: 18.5px;
+    line-height: 1.65;
+    color: var(--text);
+    margin: 0;
+    max-width: 62ch;
+}
+.approche-callout strong { font-weight: 700; }
+.site-figure {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 28px 20px;
+    margin: 0 0 28px;
+}
+.site-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.site-figure figcaption {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+    font-size: 13.5px;
+    color: var(--text-muted);
+}
+.site-figure figcaption span {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--gold);
+    white-space: nowrap;
+}
+#approche .odoo-subhead { margin-top: 56px; }
+
 /* ---------- V2 · Section Bayon (MDM agentique) ---------- */
 #bayon .bayon-pillars { margin-bottom: 56px; }
 #bayon .bayon-stats { margin-bottom: 64px; }
