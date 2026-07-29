@@ -116,7 +116,7 @@
         '/api/contact',
         {
             required: ['firstName', 'lastName', 'email', 'company', 'role', 'domain', 'problem', 'subject', 'message', 'rgpd'],
-            successMsg: 'Merci, votre demande est reçue. Un co-fondateur vous répondra sous 48h ouvrées.',
+            successMsg: 'Merci, votre demande est reçue. Le fondateur vous répondra sous 48h ouvrées.',
         }
     );
 

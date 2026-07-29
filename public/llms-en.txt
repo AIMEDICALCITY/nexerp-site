@@ -20,7 +20,7 @@ NEXERP combines **27 years of CEGID expertise** and **26 years of enterprise arc
 
 ## Contact
 - Email: contact@nexerp.fr
-- Richard YI (Enterprise Architect & Author): richard.yi@nexerp.fr
+- Richard YI (Founder & CEO): richard.yi@nexerp.fr
 - Address: 66 avenue des Champs-Élysées, 75008 Paris, France
 
 ## LLM resources

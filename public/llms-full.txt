@@ -84,7 +84,7 @@ OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Ag
 
 ## Fondateur
 
-**Richard YI** — Co-fondateur, Enterprise Architect & Auteur. 26 ans d'expérience en architecture d'entreprise. Dirige la stratégie IA, l'architecture agentique, l'IA Factory et la gouvernance de production. Email : richard.yi@nexerp.fr
+**Richard YI** — Fondateur & CEO. Enterprise Architect et auteur. 26 ans d'expérience en architecture d'entreprise. Dirige la stratégie IA, l'architecture agentique, l'IA Factory et la gouvernance de production. Email : richard.yi@nexerp.fr
 
 Positionnement : « L'alliance rare entre l'expertise terrain de CEGID Retail et l'architecture d'IA d'entreprise. »
 
@@ -102,4 +102,4 @@ Richard YI est l'auteur de plusieurs ouvrages sur l'architecture d'entreprise et
 ## Contact
 - Email général : contact@nexerp.fr
 - Adresse : 66 avenue des Champs-Élysées, 75008 Paris, France
-- Demande de diagnostic : formulaire sur https://nexerp.fr/#contact (réponse d'un co-fondateur sous 48h ouvrées, confidentialité garantie)
+- Demande de diagnostic : formulaire sur https://nexerp.fr/#contact (réponse du fondateur sous 48h ouvrées, confidentialité garantie)
