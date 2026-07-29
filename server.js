@@ -72,37 +72,37 @@ async function sendMail({ subject, text, html, replyTo }) {
 
 // ---------- Reference dictionaries ----------
 const SUBJECT_LABELS = {
-    diagnostic: 'Diagnostic CEGID Retail & IA (4 sem)',
+    diagnostic: 'Diagnostic Sage X3 & IA (4 sem)',
     sprint: 'Automation Sprint (8-12 sem)',
-    factory: 'IA Factory CEGID Retail (6 mois)',
+    factory: 'IA Factory Sage X3 (6 mois)',
     run: 'Run & AgentOps (mensuel)',
     odoo: 'Agents IA Odoo × Shopify',
     bayon: 'Pilote Bayon — MDM agentique (4 sem)',
-    formation: 'Formation IA / CEGID Retail',
+    formation: 'Formation IA / Sage X3',
     recrutement: 'Recrutement expert',
     architecture: 'Architecture',
     autre: 'Autre',
 };
 
 const DOMAIN_LABELS = {
-    referentiel: 'Référentiel Produit & Stock',
-    tarifs: 'Tarifs, Ventes & Promotions',
-    reassort: 'Réassortiment Magasins',
-    transversales: 'Fonctionnalités Transversales',
-    securite: 'Utilisateurs, Droits & Sécurité',
-    reporting: 'Reporting, Analyses & Alertes',
-    y2: 'Environnement Y2 & Paramétrage',
-    crm: 'CRM & Clienteling',
-    sav: 'SAV & Service Client',
-    omni: 'Pilotage Omni-Commerce',
-    multisociete: 'Multisociété & Franchise',
-    achats: 'Achats & Sourcing',
-    pos: 'Point de Vente / POS',
-    budget: 'Budget, Prévisions & Personnel',
-    localisation: 'Localisation & Fiscalité',
-    finance: 'Finance & Contrôle de Gestion',
-    technique: 'Outils Techniques & Intégration',
-    multi: 'Plusieurs domaines CEGID Retail',
+    referentiel: 'Sage X3 — Données Articles & Référentiels',
+    ventes: 'Sage X3 — Ventes & Administration des ventes',
+    achats: 'Sage X3 — Achats & Approvisionnements',
+    stocks: 'Sage X3 — Stocks & Inventaire',
+    production: 'Sage X3 — Production & MRP',
+    qualite: 'Sage X3 — Qualité & Traçabilité',
+    supplychain: 'Sage X3 — Supply Chain & Logistique',
+    finance: 'Sage X3 — Finance & Comptabilité',
+    controle: 'Sage X3 — Contrôle de Gestion & Budgets',
+    crm: 'Sage X3 — CRM & Relation Client',
+    projets: 'Sage X3 — Gestion de Projets',
+    maintenance: 'Sage X3 — Maintenance & Équipements',
+    multisociete: 'Sage X3 — Multisociété & Multi-sites',
+    securite: 'Sage X3 — Utilisateurs, Droits & Sécurité',
+    reporting: 'Sage X3 — Reporting & Business Intelligence',
+    parametrage: 'Sage X3 — Paramétrage & Environnements',
+    technique: 'Sage X3 — Intégrations, EDI & Web Services',
+    multi: 'Sage X3 — Plusieurs domaines',
     // ERP Odoo
     'odoo-vente': 'Odoo — Ventes & Commandes',
     'odoo-catalogue': 'Odoo — Catalogue & Produits',
@@ -242,7 +242,7 @@ app.post('/api/lead-magnet', formLimiter, async (req, res) => {
         const irritantLabel = IRRITANT_LABELS[irritant] || irritant || '—';
 
         const textBody = [
-            '📥 Nouveau téléchargement : checklist workflows CEGID Retail',
+            '📥 Nouveau téléchargement : checklist workflows Sage X3',
             '═══════════════════════════════════════',
             '',
             `Identité             : ${firstName} ${lastName}`,
@@ -260,7 +260,7 @@ app.post('/api/lead-magnet', formLimiter, async (req, res) => {
         const htmlBody = `
             <div style="font-family:-apple-system,sans-serif;max-width:600px;margin:0 auto;">
                 <div style="background:#d97706;color:#fff;padding:24px;border-radius:8px 8px 0 0;">
-                    <h2 style="margin:0;">📥 Nouveau lead — checklist CEGID Retail</h2>
+                    <h2 style="margin:0;">📥 Nouveau lead — checklist Sage X3</h2>
                 </div>
                 <div style="background:#f8fafc;padding:24px;border:1px solid #e2e8f0;border-top:none;border-radius:0 0 8px 8px;">
                     <p><strong>Identité :</strong> ${escapeHtml(firstName)} ${escapeHtml(lastName)}</p>

@@ -1,78 +1,65 @@
-# NEXERP — AI Factory for CEGID Retail
+# NEXERP — AI Factory for Sage X3
 
-> NEXERP (nexerp.fr) is an augmented services company specialized in integrating **CEGID Retail**, a unified commerce platform for specialty retail brands — particularly fashion and luxury — and in deploying **autonomous AI Agents supervised by experts** (Human-in-the-Loop model). Our AI Factory configures agents to reduce operational pain points and orchestrate medium-to-complex CEGID Retail management workflows.
+> NEXERP (nexerp.fr) is an augmented services company specialized in integrating **Sage X3**, the ERP for SMEs and mid-market companies — distribution, wholesale and manufacturing — and in deploying **autonomous AI Agents supervised by experts** (Human-in-the-Loop model). Our AI Factory configures agents to reduce operational pain points and orchestrate medium-to-complex Sage X3 management workflows.
 
-Core message: **"Optimize your operationally intensive CEGID Retail workflows with AI Agents supervised by ERP experts."**
+Core message: **"Optimize your operationally intensive Sage X3 workflows with AI Agents supervised by ERP experts."**
 
 ---
 
 ## Who
-Executives and managers of French specialty-retail brands already running CEGID Retail: CEO, CTO, CIO, CFO, CHRO, COO, business directors and managers. Organizations facing growing operational complexity, manual workflows, documentation debt, and excessive dependence on internal experts or vendors.
+Executives and managers of French companies already running Sage X3: CEO, CTO, CIO, CFO, CHRO, COO, business directors and managers. Organizations facing growing operational complexity, manual workflows, documentation debt, and excessive dependence on internal experts or vendors.
 
 ## What
-CEGID Retail operates in a shifting regulatory and operational context. Workflows grow complex (configuration, integrations, operations, bugs, business exceptions), many activities remain manual and dependent on key people, repetitive tasks consume expert time, documentation is hard to use, and knowledge transfer is fragile. AI initiatives, the AI Factory and AI Agents provide a concrete answer.
+Sage X3 operates in a shifting regulatory and operational context. Workflows grow complex (configuration, integrations, operations, bugs, business exceptions), many activities remain manual and dependent on key people, repetitive tasks consume expert time, documentation is hard to use, and knowledge transfer is fragile. AI initiatives, the AI Factory and AI Agents provide a concrete answer.
 
 ## How
-NEXERP offers an AI transformation program. We co-develop, with our clients, AI Agents specific to CEGID Retail workflows. Agents are configured, tested, supervised and validated by CEGID Retail experts. They rely on Skills Systems, Memory, User, Soul and Context. Deployment follows a Human-in-the-Loop, AgentOps, security, compliance and ROI-measurement logic. Knowledge is capitalized through `memory.md`.
+NEXERP offers an AI transformation program. We co-develop, with our clients, AI Agents specific to Sage X3 workflows. Agents are configured, tested, supervised and validated by Sage X3 experts. They rely on Skills Systems, Memory, User, Soul and Context. Deployment follows a Human-in-the-Loop, AgentOps, security, compliance and ROI-measurement logic. Knowledge is capitalized through `memory.md`.
 
 ## Where
 Clients based in France. Remote, hybrid or on-site engagement depending on the phase.
 
 ## Why
-Properly configured, trained and governed AI Agents solve simple, medium and complex CEGID Retail workflow problems: improved operational efficiency, faster execution, knowledge documentation, secured operations, and increased business-team capacity.
+Properly configured, trained and governed AI Agents solve simple, medium and complex Sage X3 workflow problems: improved operational efficiency, faster execution, knowledge documentation, secured operations, and increased business-team capacity.
 
 ---
 
 ## Proprietary method — Agent Engineering (6 phases)
-1. **Identification** — detect repetitive, unstable or high-efficiency-stakes workflows in the CEGID Retail configuration.
-2. **Definition** — frame the problem, roles, business rules and success criteria.
-3. **Representation** — model the workflow, data, exceptions and decisions.
-4. **Specification** — formalize prompts, skills, rules, controls, inputs/outputs.
-5. **Configuration** — configure the agent, memory, tools, access and human validations.
-6. **Instantiation** — deploy, test, monitor and continuously improve the agent in production.
-
-## 8-step approach
-Diagnostic → Prioritization → Workflow design → Skills creation → Agent configuration → Human validation → Production rollout → ROI / risk monitoring.
-
----
-
-## 17 CEGID Retail functional domains covered
-1. **Product Master Data & Stock Management** — record enrichment, multi-store stock control, inventory anomaly detection.
-2. **Pricing, Sales & Promotions** — price consistency, seasonal promotion generation, margin control.
-3. **Store Replenishment** — replenishment recommendations, stockout alerts, inter-store balancing.
-4. **Cross-Functional Features** — custom workflows, recurring-task automation, cross-checks.
-5. **Users, Rights & Security** — entitlement audit, abnormal-access detection, periodic rights review.
-6. **Reporting, Analytics & Alerts** — automated report generation, weak-signal detection, business alerts.
-7. **Y2 Environment & Configuration** — configuration documentation, consistency control, regression testing.
-8. **CRM & Clienteling** — automatic segmentation, clienteling recommendations, customer scoring.
-9. **After-Sales & Customer Service** — ticket triage, automated level-1 responses, smart escalation.
-10. **Omni-Commerce Steering** — web/store flow reconciliation, customer-journey tracking, click & collect.
-11. **Multi-Company & Franchise** — franchisee flow consolidation, contractual alerts, network reporting.
-12. **Purchasing & Sourcing** — supplier validation, order tracking, delivery-delay alerts.
-13. **Point of Sale / POS Front-Office** — sales associate assistant, ticket control, cash anomaly detection.
-14. **Budget, Forecasting & Staffing** — sales forecasting, team sizing, budget-variance alerts.
-15. **Localization & Tax** — multi-country VAT compliance, specific-tax control, regulatory updates.
-16. **Finance & Management Control** — accounting reconciliation, journal-entry control, group reporting.
-17. **Technical Tools & Integration** — interface monitoring, failure detection, technical documentation.
+1. **Item Data & Master Records** — item master enrichment, reference-data consistency checks, duplicate detection.
+2. **Sales & Sales Administration** — order checks, price consistency, delivery and invoicing follow-up.
+3. **Purchasing & Procurement** — supplier validation, order tracking, lead-time and shortage alerts.
+4. **Stock & Inventory** — multi-site control, inventory anomaly detection, valuation.
+5. **Production & MRP** — bill-of-material and routing consistency, work-order tracking, planning alerts.
+6. **Quality & Traceability** — quality controls, non-conformity handling, upstream/downstream lot traceability.
+7. **Supply Chain & Logistics** — flow steering, picking and shipping, WMS/carrier interfaces.
+8. **Finance & Accounting** — reconciliations, journal-entry controls, closings, group reporting.
+9. **Management Control & Budgets** — budget tracking, variance analysis, forecasting.
+10. **CRM & Customer Relationship** — segmentation, opportunity tracking, scoring and follow-ups.
+11. **Project Management** — progress tracking, cost allocation, drift alerts.
+12. **Maintenance & Equipment** — maintenance plans, work orders, equipment availability.
+13. **Multi-Company & Multi-Site** — inter-company consolidation, intercompany flows, group reporting.
+14. **Users, Rights & Security** — permission audits, abnormal-access detection, periodic rights review.
+15. **Reporting & Business Intelligence** — automated report generation, weak-signal detection, business alerts.
+16. **Configuration & Environments** — configuration documentation, consistency control, regression testing.
+17. **Integrations, EDI & Web Services** — interface monitoring, failure detection, technical documentation.
 
 ---
 
 ## Packaged offers
-- **CEGID Retail & AI Diagnostic — 4 weeks.** Rapid audit of pain points, friction, manual workflows, recurring bugs, business dependencies and automation opportunities. Deliverable: high-stakes workflow mapping + automation backlog + AI Readiness score + 90-day roadmap.
-- **Automation Sprint — 8 to 12 weeks.** Build a first AI Agent on a priority workflow, supervised by an expert. Deliverable: tested and validated agentic prototype/MVP, CEGID Retail expert review, immediate ROI measurement.
-- **CEGID Retail AI Factory — 6 months.** Set up an industrial foundation: skills catalog, AgentOps, security, monitoring, governance, prompt templates, memory system. Deliverable: reusable platform for multiple agents.
+- **Sage X3 & AI Diagnostic — 4 weeks.** Rapid audit of pain points, friction, manual workflows, recurring bugs, business dependencies and automation opportunities. Deliverable: high-stakes workflow mapping + automation backlog + AI Readiness score + 90-day roadmap.
+- **Automation Sprint — 8 to 12 weeks.** Build a first AI Agent on a priority workflow, supervised by an expert. Deliverable: tested and validated agentic prototype/MVP, Sage X3 expert review, immediate ROI measurement.
+- **Sage X3 AI Factory — 6 months.** Set up an industrial foundation: skills catalog, AgentOps, security, monitoring, governance, prompt templates, memory system. Deliverable: reusable platform for multiple agents.
 - **Run & AgentOps — monthly subscription.** Supervision, maintenance, evaluation, continuous improvement, token-cost tracking, error and incident monitoring. Deliverable: agents in production with SLA, dashboard and reporting.
 
 ## Other services
-AI Foundation training; AI training tailored to the CEGID Retail context; recruitment of CEGID Retail and AI experts; architecture (business, data, enterprise, solution, technical); CEGID Retail integration and expertise; CEGID Retail operations, production and support; Documentation Intelligence & Knowledge Memory; ROI & AI Business Case; AI / GDPR / AI Act compliance.
+AI Foundation training; AI training tailored to the Sage X3 context; recruitment of Sage X3 and AI experts; architecture (business, data, enterprise, solution, technical); Sage X3 integration and expertise; Sage X3 operations, production and support; Documentation Intelligence & Knowledge Memory; ROI & AI Business Case; AI / GDPR / AI Act compliance.
 
 ---
 
 ## AI Factory — 6 pillars
-1. Reusable Skills catalog. 2. Agents specific to CEGID Retail workflows. 3. Full AgentOps (evaluation, monitoring, CI/CD, sandbox, UAT, production). 4. Security & compliance by design (prompt injection, data leakage, secrets, isolation, audit). 5. Executive dashboard (value, cost, adoption, risk). 6. Recurring run model.
+1. Reusable Skills catalog. 2. Agents specific to Sage X3 workflows. 3. Full AgentOps (evaluation, monitoring, CI/CD, sandbox, UAT, production). 4. Security & compliance by design (prompt injection, data leakage, secrets, isolation, audit). 5. Executive dashboard (value, cost, adoption, risk). 6. Recurring run model.
 
 ## Governance & trust
-Human-in-the-Loop; data security; GDPR & AI Act compliance; full auditability; access management; cost monitoring; decision review; CEGID Retail expert validation before production.
+Human-in-the-Loop; data security; GDPR & AI Act compliance; full auditability; access management; cost monitoring; decision review; Sage X3 expert validation before production.
 
 ## ROI indicators
 Time saved; errors avoided; reduced operational load; fewer recurring tickets; reduced expert dependency; improved processing time; cost per token/run; user adoption.
@@ -86,7 +73,7 @@ OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Ag
 
 **Richard YI** — Founder & CEO. Enterprise Architect and author. 26 years of enterprise-architecture experience. Leads AI strategy, agentic architecture, the AI Factory and production governance. Email: richard.yi@nexerp.fr
 
-Duo positioning: "The rare alliance between hands-on CEGID Retail expertise and enterprise AI architecture."
+Duo positioning: "The rare alliance between hands-on Sage X3 expertise and enterprise AI architecture."
 
 ## Founder publications (reference books)
 Richard YI is the author of several books on enterprise architecture and agentic AI:

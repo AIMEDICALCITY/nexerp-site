@@ -1,5 +1,5 @@
 # robots.txt — nexerp.fr
-# NEXERP — IA Factory pour CEGID Retail (mode, luxe, retail spécialisé)
+# NEXERP — IA Factory pour Sage X3 (distribution, négoce, industrie)
 
 User-agent: *
 Allow: /

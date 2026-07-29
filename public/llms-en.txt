@@ -1,18 +1,18 @@
-# NEXERP — AI Factory for CEGID Retail
+# NEXERP — AI Factory for Sage X3
 
-> NEXERP is an augmented services company specialized in integrating **CEGID Retail** — a unified commerce platform for specialty retail (fashion, luxury, distribution) — and deploying **autonomous AI Agents supervised by experts**. NEXERP turns complex, manual, operationally intensive CEGID Retail workflows into operational, secure and measurable AI Agents.
+> NEXERP is an augmented services company specialized in integrating **Sage X3** — the ERP for SMEs and mid-market companies (distribution, wholesale, manufacturing) — and deploying **autonomous AI Agents supervised by experts**. NEXERP turns complex, manual, operationally intensive Sage X3 workflows into operational, secure and measurable AI Agents.
 
-NEXERP combines **27 years of CEGID expertise** and **26 years of enterprise architecture**, a proprietary 6-phase "Agent Engineering" method, a **Human-in-the-Loop** model, an industrialized **AI Factory**, and governance compliant with GDPR / AI Act / DORA. Audience: executives (CEO, CTO, CIO, CFO, CHRO, COO) of French specialty-retail brands running CEGID Retail.
+NEXERP combines **27 years of Sage expertise** and **26 years of enterprise architecture**, a proprietary 6-phase "Agent Engineering" method, a **Human-in-the-Loop** model, an industrialized **AI Factory**, and governance compliant with GDPR / AI Act / DORA. Audience: executives (CEO, CTO, CIO, CFO, CHRO, COO) of French companies running Sage X3.
 
 ## Main pages
-- [Home](https://nexerp.fr/) : positioning, pain points, method, offers, 17 functional CEGID Retail domains covered, governance, ROI, founders, contact
+- [Home](https://nexerp.fr/) : positioning, pain points, method, offers, 17 functional Sage X3 domains covered, governance, ROI, founders, contact
 - [Legal notice](https://nexerp.fr/mentions-legales) : publisher and host legal information (French)
 - [Privacy policy](https://nexerp.fr/politique-confidentialite) : personal data processing, GDPR rights (French)
 
 ## Packaged offers
-- **CEGID Retail & AI Diagnostic** (4 weeks): mapping of high-stakes workflows + automation backlog
+- **Sage X3 & AI Diagnostic** (4 weeks): mapping of high-stakes workflows + automation backlog
 - **Automation Sprint** (8 to 12 weeks): first AI Agent on a priority workflow, supervised by an expert
-- **CEGID Retail AI Factory** (6 months): industrialization of agents, skills, memory, AgentOps and governance
+- **Sage X3 AI Factory** (6 months): industrialization of agents, skills, memory, AgentOps and governance
 - **Run & AgentOps** (monthly subscription): supervision, monitoring, ROI and risk reduction in production
 
 ## Proprietary method — Agent Engineering (6 phases)
