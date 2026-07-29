@@ -1,8 +1,8 @@
 # NEXERP — AI Factory for Sage X3
 
-> NEXERP (nexerp.fr) is an augmented services company specialized in integrating **Sage X3**, the ERP for SMEs and mid-market companies — distribution, wholesale and manufacturing — and in deploying **autonomous AI Agents supervised by experts** (Human-in-the-Loop model). Our AI Factory configures agents to reduce operational pain points and orchestrate medium-to-complex Sage X3 management workflows.
+> NEXERP (nexerp.fr) is an augmented services company specialized in integrating **Sage X3**, the ERP for SMEs and mid-market companies — distribution, wholesale and manufacturing — and in deploying **autonomous, governed AI Agents validated by your business owners** (Human-in-the-Loop model). Our AI Factory configures agents to reduce operational pain points and orchestrate medium-to-complex Sage X3 management workflows.
 
-Core message: **"Optimize your operationally intensive Sage X3 workflows with AI Agents supervised by ERP experts."**
+Core message: **"Our expertise is AI orchestration architecture, not ERP expertise: Sage X3 knowledge lives in the business agentic RAG, and sensitive decisions stay with your teams."**
 
 ---
 
@@ -13,7 +13,7 @@ Executives and managers of French companies already running Sage X3: CEO, CTO, C
 Sage X3 operates in a shifting regulatory and operational context. Workflows grow complex (configuration, integrations, operations, bugs, business exceptions), many activities remain manual and dependent on key people, repetitive tasks consume expert time, documentation is hard to use, and knowledge transfer is fragile. AI initiatives, the AI Factory and AI Agents provide a concrete answer.
 
 ## How
-NEXERP offers an AI transformation program. We co-develop, with our clients, AI Agents specific to Sage X3 workflows. Agents are configured, tested, supervised and validated by Sage X3 experts. They rely on Skills Systems, Memory, User, Soul and Context. Deployment follows a Human-in-the-Loop, AgentOps, security, compliance and ROI-measurement logic. Knowledge is capitalized through `memory.md`.
+NEXERP offers an AI transformation program. We co-develop, with our clients, AI Agents specific to Sage X3 workflows. Agents are configured, tested, supervised and validated by your business owners. They rely on Skills Systems, Memory, User, Soul and Context. Deployment follows a Human-in-the-Loop, AgentOps, security, compliance and ROI-measurement logic. Knowledge is capitalized through `memory.md`.
 
 ## Where
 Clients based in France. Remote, hybrid or on-site engagement depending on the phase.
@@ -46,12 +46,12 @@ Properly configured, trained and governed AI Agents solve simple, medium and com
 
 ## Packaged offers
 - **Sage X3 & AI Diagnostic — 4 weeks.** Rapid audit of pain points, friction, manual workflows, recurring bugs, business dependencies and automation opportunities. Deliverable: high-stakes workflow mapping + automation backlog + AI Readiness score + 90-day roadmap.
-- **Automation Sprint — 8 to 12 weeks.** Build a first AI Agent on a priority workflow, supervised by an expert. Deliverable: tested and validated agentic prototype/MVP, Sage X3 expert review, immediate ROI measurement.
+- **Automation Sprint — 8 to 12 weeks.** Build a first AI Agent on a priority workflow, under business-owner control. Deliverable: tested and validated agentic prototype/MVP, Sage X3 expert review, immediate ROI measurement.
 - **Sage X3 AI Factory — 6 months.** Set up an industrial foundation: skills catalog, AgentOps, security, monitoring, governance, prompt templates, memory system. Deliverable: reusable platform for multiple agents.
 - **Run & AgentOps — monthly subscription.** Supervision, maintenance, evaluation, continuous improvement, token-cost tracking, error and incident monitoring. Deliverable: agents in production with SLA, dashboard and reporting.
 
 ## Other services
-AI Foundation training; AI training tailored to the Sage X3 context; recruitment of Sage X3 and AI experts; architecture (business, data, enterprise, solution, technical); Sage X3 integration and expertise; Sage X3 operations, production and support; Documentation Intelligence & Knowledge Memory; ROI & AI Business Case; AI / GDPR / AI Act compliance.
+AI Foundation training; AI training tailored to the Sage X3 context; recruitment of AI and data profiles; architecture (business, data, enterprise, solution, technical); Sage X3 integration via agents (business RAG); Sage X3 operations, production and support; Documentation Intelligence & Knowledge Memory; ROI & AI Business Case; AI / GDPR / AI Act compliance.
 
 ---
 
@@ -59,7 +59,7 @@ AI Foundation training; AI training tailored to the Sage X3 context; recruitment
 1. Reusable Skills catalog. 2. Agents specific to Sage X3 workflows. 3. Full AgentOps (evaluation, monitoring, CI/CD, sandbox, UAT, production). 4. Security & compliance by design (prompt injection, data leakage, secrets, isolation, audit). 5. Executive dashboard (value, cost, adoption, risk). 6. Recurring run model.
 
 ## Governance & trust
-Human-in-the-Loop; data security; GDPR & AI Act compliance; full auditability; access management; cost monitoring; decision review; Sage X3 expert validation before production.
+Human-in-the-Loop; data security; GDPR & AI Act compliance; full auditability; access management; cost monitoring; decision review; business-owner validation before production.
 
 ## ROI indicators
 Time saved; errors avoided; reduced operational load; fewer recurring tickets; reduced expert dependency; improved processing time; cost per token/run; user adoption.
@@ -73,7 +73,7 @@ OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Ag
 
 **Richard YI** — Founder & CEO. Enterprise Architect and author. 26 years of enterprise-architecture experience. Leads AI strategy, agentic architecture, the AI Factory and production governance. Email: richard.yi@nexerp.fr
 
-Duo positioning: "The rare alliance between hands-on Sage X3 expertise and enterprise AI architecture."
+Positioning: "Our expertise is AI orchestration architecture. ERP knowledge is carried by the business agentic RAG, and validation by the client's teams."
 
 ## Founder publications (reference books)
 Richard YI is the author of several books on enterprise architecture and agentic AI:

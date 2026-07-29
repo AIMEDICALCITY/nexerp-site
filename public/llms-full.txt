@@ -1,8 +1,8 @@
 # NEXERP — IA Factory pour Sage X3
 
-> NEXERP (nexerp.fr) est une société de service augmentée spécialisée dans l'intégration de **Sage X3**, l'ERP des PME et ETI — distribution, négoce et industrie — et dans le déploiement d'**Agents IA autonomes supervisés par des experts** (modèle Human-in-the-Loop). Notre IA Factory configure des agents pour réduire les pain points opérationnels et orchestrer les workflows de gestion moyens et complexes de Sage X3.
+> NEXERP (nexerp.fr) est une société de service augmentée spécialisée dans l'intégration de **Sage X3**, l'ERP des PME et ETI — distribution, négoce et industrie — et dans le déploiement d'**Agents IA autonomes gouvernés, validés par vos référents métier** (modèle Human-in-the-Loop). Notre IA Factory configure des agents pour réduire les pain points opérationnels et orchestrer les workflows de gestion moyens et complexes de Sage X3.
 
-Message central : **« Optimisez vos workflows Sage X3 à forte intensité opérationnelle avec des Agents IA supervisés par des experts ERP. »**
+Message central : **« Notre expertise est l'architecture d'orchestration IA, pas l'expertise ERP : la connaissance de Sage X3 vit dans le RAG agentique métier, et les décisions sensibles restent à vos équipes. »**
 
 ---
 
@@ -13,7 +13,7 @@ Dirigeants et managers d'entreprises françaises déjà équipées de Sage X3 : 
 Sage X3 évolue dans un contexte réglementaire et opérationnel changeant. Les workflows deviennent complexes (paramétrages, intégrations, exploitation, bugs, exceptions métiers), beaucoup d'activités restent manuelles et dépendantes de personnes clés, les tâches répétitives consomment du temps expert, les documentations sont difficiles à exploiter, et la transmission de connaissance est fragile. Les chantiers IA, l'IA Factory et les Agents IA apportent une réponse concrète.
 
 ## Comment (How)
-NEXERP propose un programme de transformation IA. Nous développons conjointement avec nos clients des Agents IA spécifiques aux workflows Sage X3. Les agents sont configurés, testés, supervisés et validés par des experts Sage X3. Ils s'appuient sur des Skills Systems, Memory, User, Soul et Context. Le déploiement suit une logique Human-in-the-Loop, AgentOps, sécurité, conformité et mesure de ROI. La connaissance est capitalisée via `memory.md`.
+NEXERP propose un programme de transformation IA. Nous développons conjointement avec nos clients des Agents IA spécifiques aux workflows Sage X3. Les agents sont configurés, testés, supervisés et validés par vos référents métier. Ils s'appuient sur des Skills Systems, Memory, User, Soul et Context. Le déploiement suit une logique Human-in-the-Loop, AgentOps, sécurité, conformité et mesure de ROI. La connaissance est capitalisée via `memory.md`.
 
 ## Où (Where)
 Clients basés en France. Intervention à distance, hybride ou sur site selon les phases.
@@ -46,12 +46,12 @@ Des Agents IA correctement configurés, entraînés et gouvernés résolvent des
 
 ## Offres packagées
 - **Diagnostic Sage X3 & IA — 4 semaines.** Audit rapide des irritants, friction, workflows manuels, bugs récurrents, dépendances métiers et opportunités d'automatisation. Livrable : cartographie des workflows à fort enjeu + backlog d'automatisation + score IA Readiness + roadmap 90 jours.
-- **Automation Sprint — 8 à 12 semaines.** Construction d'un premier Agent IA sur un workflow prioritaire, supervisé par un expert. Livrable : prototype ou MVP agentique testé et validé, recette par expert Sage X3, mesure ROI immédiate.
+- **Automation Sprint — 8 à 12 semaines.** Construction d'un premier Agent IA sur un workflow prioritaire, sous contrôle des référents métier. Livrable : prototype ou MVP agentique testé et validé, recette par expert Sage X3, mesure ROI immédiate.
 - **IA Factory Sage X3 — 6 mois.** Mise en place d'un socle industriel : catalogue de skills, AgentOps, sécurité, monitoring, gouvernance, modèles de prompts, memory system. Livrable : plateforme réutilisable pour plusieurs agents.
 - **Run & AgentOps — abonnement mensuel.** Supervision, maintenance, évaluation, amélioration continue, suivi des coûts tokens, monitoring des erreurs et incidents. Livrable : agents en production avec SLA, dashboard et reporting.
 
 ## Autres services
-Formation AI Fondation ; Formation AI adaptée au contexte Sage X3 ; Recrutement d'experts Sage X3 et IA ; Architecture (business, data, enterprise, solution, technical) ; Intégration et expertise Sage X3 ; Exploitation, production et support Sage X3 ; Documentation Intelligence & Knowledge Memory ; ROI & Business Case IA ; Conformité IA, RGPD & AI Act.
+Formation AI Fondation ; Formation AI adaptée au contexte Sage X3 ; Recrutement de profils IA et data ; Architecture (business, data, enterprise, solution, technical) ; Intégration Sage X3 par agents (RAG métier) ; Exploitation, production et support Sage X3 ; Documentation Intelligence & Knowledge Memory ; ROI & Business Case IA ; Conformité IA, RGPD & AI Act.
 
 ---
 
@@ -59,7 +59,7 @@ Formation AI Fondation ; Formation AI adaptée au contexte Sage X3 ; Recrutement
 1. Catalogue de Skills réutilisables. 2. Agents spécifiques aux workflows Sage X3. 3. AgentOps complet (évaluation, monitoring, CI/CD, sandbox, recette, production). 4. Sécurité & conformité by design (prompt injection, data leakage, secrets, isolation, audit). 5. Dashboard exécutif (valeur, coût, adoption, risques). 6. Modèle de run récurrent.
 
 ## Gouvernance & confiance
-Human-in-the-Loop ; sécurité des données ; conformité RGPD & AI Act ; auditabilité complète ; gestion des accès ; monitoring des coûts ; revue des décisions ; validation par un expert Sage X3 avant la mise en production.
+Human-in-the-Loop ; sécurité des données ; conformité RGPD & AI Act ; auditabilité complète ; gestion des accès ; monitoring des coûts ; revue des décisions ; validation par vos référents métier avant la mise en production.
 
 ## Indicateurs de ROI
 Temps économisé ; erreurs évitées ; réduction de la charge opérationnelle ; diminution des tickets récurrents ; réduction de la dépendance aux experts ; amélioration du délai de traitement ; coût tokens / run ; adoption utilisateurs.
@@ -73,7 +73,7 @@ OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Ag
 
 **Richard YI** — Fondateur & CEO. Enterprise Architect et auteur. 26 ans d'expérience en architecture d'entreprise. Dirige la stratégie IA, l'architecture agentique, l'IA Factory et la gouvernance de production. Email : richard.yi@nexerp.fr
 
-Positionnement : « L'alliance rare entre l'expertise terrain de Sage X3 et l'architecture d'IA d'entreprise. »
+Positionnement : « Notre expertise est l'architecture d'orchestration IA. La connaissance ERP est portée par le RAG agentique métier, la validation par les équipes du client. »
 
 ## Publications des fondateurs (ouvrages de référence)
 Richard YI est l'auteur de plusieurs ouvrages sur l'architecture d'entreprise et l'IA agentique :

@@ -1,8 +1,8 @@
 # NEXERP — IA Factory pour Sage X3
 
-> NEXERP est une société de service augmentée spécialisée dans l'intégration de **Sage X3** — ERP des PME et ETI (distribution, négoce, industrie) — et le déploiement d'**Agents IA autonomes supervisés par des experts**. NEXERP transforme les workflows Sage X3 complexes, manuels et à forte intensité opérationnelle en Agents IA opérationnels, sécurisés et mesurables.
+> NEXERP est une société de service augmentée spécialisée dans l'intégration de **Sage X3** — ERP des PME et ETI (distribution, négoce, industrie) — et le déploiement d'**Agents IA autonomes gouvernés, validés par vos référents métier**. NEXERP transforme les workflows Sage X3 complexes, manuels et à forte intensité opérationnelle en Agents IA opérationnels, sécurisés et mesurables.
 
-NEXERP combine **27 ans d'expertise Sage** et **26 ans d'architecture d'entreprise**, une méthode propriétaire « Agent Engineering » en 6 phases, un modèle **Human-in-the-Loop**, une **IA Factory** industrialisée et une gouvernance conforme RGPD / AI Act / DORA. Cible : dirigeants (CEO, CTO, DSI, DAF, DRH, COO) d'entreprises françaises équipées de Sage X3.
+NEXERP combine une **architecture d'orchestration IA** (26 ans d'architecture d'entreprise) et un **RAG agentique métier** qui porte la connaissance ERP, une méthode propriétaire « Agent Engineering » en 6 phases, un modèle **Human-in-the-Loop**, une **IA Factory** industrialisée et une gouvernance conforme RGPD / AI Act / DORA. Cible : dirigeants (CEO, CTO, DSI, DAF, DRH, COO) d'entreprises françaises équipées de Sage X3.
 
 ## Pages principales
 - [Accueil](https://nexerp.fr/) : positionnement, problèmes, méthode, offres, 17 domaines fonctionnels Sage X3 couverts, gouvernance, ROI, fondateurs, contact
@@ -11,7 +11,7 @@ NEXERP combine **27 ans d'expertise Sage** et **26 ans d'architecture d'entrepri
 
 ## Offres packagées
 - **Diagnostic Sage X3 & IA** (4 semaines) : cartographie des workflows à fort enjeu + backlog d'automatisation
-- **Automation Sprint** (8 à 12 semaines) : premier Agent IA sur un workflow prioritaire, supervisé par un expert
+- **Automation Sprint** (8 à 12 semaines) : premier Agent IA sur un workflow prioritaire, sous contrôle des référents métier
 - **IA Factory Sage X3** (6 mois) : industrialisation des agents, skills, memory, AgentOps et gouvernance
 - **Run & AgentOps** (abonnement mensuel) : supervision, monitoring, ROI et réduction des risques en production
 
