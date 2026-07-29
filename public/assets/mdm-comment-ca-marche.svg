@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1190" role="img"
+     aria-label="MDM agentique — comment ça marche : les systèmes source (Sage X3, Odoo, ERP, POS) alimentent par triggers CDC un référentiel unifié MDM où des Agents IA proposent les mappings et génèrent le code, avant propagation vers les systèmes cible, sous validation humaine et console de supervision.">
+  <title>MDM Agentique — comment ça marche</title>
+  <defs>
+    <marker id="ar-green" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,1 L11,6 L0,11 z" fill="#15803d"/>
+    </marker>
+    <marker id="ar-gold" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,1 L11,6 L0,11 z" fill="#d97706"/>
+    </marker>
+    <style>
+      .t   { font-family: "Segoe UI", Arial, Helvetica, sans-serif; }
+      .h1  { font-size: 46px; font-weight: 700; fill: #1e3a8a; }
+      .hd  { font-size: 31px; font-weight: 700; }
+      .bd  { font-size: 25px; fill: #475569; }
+      .bdw { font-size: 24px; fill: #ffffff; }
+      .bdn { font-size: 25px; font-weight: 600; fill: #1e3a8a; }
+      .lbl { font-size: 26px; font-weight: 700; fill: #15803d; }
+      .sm  { font-size: 22px; fill: #15803d; }
+      .gld { font-size: 24px; font-weight: 700; fill: #b45309; }
+    </style>
+  </defs>
+
+  <rect width="2000" height="1190" fill="#ffffff"/>
+  <text class="t h1" x="1000" y="78" text-anchor="middle">MDM Agentique — comment ça marche</text>
+
+  <!-- Systèmes source -->
+  <rect x="55" y="205" width="405" height="160" rx="10" fill="#ffffff" stroke="#1e3a8a" stroke-width="3"/>
+  <text class="t hd" x="257" y="258" text-anchor="middle" fill="#1e3a8a">Systèmes source</text>
+  <text class="t bd" x="257" y="300" text-anchor="middle">Sage X3, Odoo,</text>
+  <text class="t bd" x="257" y="334" text-anchor="middle">ERP, POS…</text>
+
+  <rect x="55" y="410" width="405" height="98" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2.5"/>
+  <text class="t" x="257" y="468" text-anchor="middle" font-size="26" font-weight="700" fill="#64748b">Autres applications</text>
+
+  <!-- Flux CDC source -> MDM -->
+  <text class="t lbl" x="600" y="272" text-anchor="middle">Triggers CDC</text>
+  <text class="t sm"  x="600" y="304" text-anchor="middle">chaque changement</text>
+  <text class="t sm"  x="600" y="332" text-anchor="middle">capturé en ~1 s</text>
+  <line x1="466" y1="366" x2="758" y2="366" stroke="#15803d" stroke-width="5" marker-end="url(#ar-green)"/>
+
+  <!-- Référentiel unifié MDM -->
+  <rect x="768" y="190" width="612" height="410" rx="12" fill="#eef2ff" stroke="#1e3a8a" stroke-width="3.5"/>
+  <text class="t" x="1074" y="248" text-anchor="middle" font-size="34" font-weight="700" fill="#1e3a8a">Référentiel unifié MDM</text>
+  <text class="t bdn" x="1074" y="292" text-anchor="middle">« golden record » : produits, clients,</text>
+  <text class="t bdn" x="1074" y="326" text-anchor="middle">stocks, commandes</text>
+
+  <rect x="808" y="360" width="532" height="212" rx="10" fill="#15803d"/>
+  <text class="t" x="1074" y="411" text-anchor="middle" font-size="31" font-weight="700" fill="#ffffff">Agents IA</text>
+  <text class="t bdw" x="1074" y="452" text-anchor="middle">lisent la documentation,</text>
+  <text class="t bdw" x="1074" y="486" text-anchor="middle">proposent les mappings, génèrent</text>
+  <text class="t bdw" x="1074" y="520" text-anchor="middle">le code Python, exécutent</text>
+  <text class="t bdw" x="1074" y="554" text-anchor="middle">et s'auto-corrigent</text>
+
+  <!-- Flux MDM -> cible -->
+  <line x1="1388" y1="330" x2="1545" y2="285" stroke="#15803d" stroke-width="5" marker-end="url(#ar-green)"/>
+
+  <!-- Systèmes cible -->
+  <rect x="1552" y="200" width="398" height="178" rx="10" fill="#ffffff" stroke="#15803d" stroke-width="3"/>
+  <text class="t hd" x="1751" y="253" text-anchor="middle" fill="#15803d">Systèmes cible</text>
+  <text class="t bd" x="1751" y="295" text-anchor="middle">Salesforce Commerce</text>
+  <text class="t bd" x="1751" y="329" text-anchor="middle">Cloud, Shopify,</text>
+  <text class="t bd" x="1751" y="363" text-anchor="middle">marketplaces…</text>
+
+  <!-- Boucle HITL -->
+  <text class="t gld" x="945"  y="668" text-anchor="end">valide</text>
+  <line x1="1035" y1="690" x2="1035" y2="620" stroke="#d97706" stroke-width="5" marker-end="url(#ar-gold)"/>
+  <line x1="1113" y1="620" x2="1113" y2="690" stroke="#d97706" stroke-width="5" marker-end="url(#ar-gold)"/>
+  <text class="t gld" x="1203" y="668" text-anchor="start">propose</text>
+
+  <rect x="768" y="700" width="612" height="186" rx="12" fill="#fef8e7" stroke="#d97706" stroke-width="3"/>
+  <text class="t" x="1074" y="756" text-anchor="middle" font-size="32" font-weight="700" fill="#b45309">Validation humaine (HITL)</text>
+  <text class="t" x="1074" y="800" text-anchor="middle" font-size="25" fill="#0f172a">prix, taxes, comptabilité, remboursements,</text>
+  <text class="t" x="1074" y="834" text-anchor="middle" font-size="25" fill="#0f172a">données client : l'agent propose,</text>
+  <text class="t" x="1074" y="868" text-anchor="middle" font-size="25" fill="#0f172a">l'humain valide</text>
+
+  <!-- Console de supervision -->
+  <rect x="55" y="950" width="1895" height="165" rx="12" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="2.5"/>
+  <text class="t" x="1002" y="1016" text-anchor="middle" font-size="32" font-weight="700" fill="#1e3a8a">Console de supervision</text>
+  <text class="t bd" x="1002" y="1062" text-anchor="middle">logs, alertes, rejets et reprises automatiques, audit complet de chaque échange</text>
+  <text class="t bd" x="1002" y="1094" text-anchor="middle">et de chaque décision de mapping</text>
+</svg>
