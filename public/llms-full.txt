@@ -82,12 +82,11 @@ OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Ag
 
 ---
 
-## Fondateurs
-**François MAM** — Co-fondateur, Expert CEGID Retail. Sérial entrepreneur, 27 ans d'expertise CEGID avec un focus retail spécialisé (mode, luxe, distribution). Pilote l'expertise produit et l'intégration des workflows métier. Email : francois.mam@nexerp.fr
+## Fondateur
 
 **Richard YI** — Co-fondateur, Enterprise Architect & Auteur. 26 ans d'expérience en architecture d'entreprise. Dirige la stratégie IA, l'architecture agentique, l'IA Factory et la gouvernance de production. Email : richard.yi@nexerp.fr
 
-Positionnement du duo : « L'alliance rare entre l'expertise terrain de CEGID Retail et l'architecture d'IA d'entreprise. »
+Positionnement : « L'alliance rare entre l'expertise terrain de CEGID Retail et l'architecture d'IA d'entreprise. »
 
 ## Publications des fondateurs (ouvrages de référence)
 Richard YI est l'auteur de plusieurs ouvrages sur l'architecture d'entreprise et l'IA agentique :

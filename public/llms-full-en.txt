@@ -82,8 +82,7 @@ OpenClaw, Hermes Agent, Claude Managed Agents (Anthropic), ChatGPT Autonomous Ag
 
 ---
 
-## Founders
-**François MAM** — Co-founder, CEGID Retail Expert. Serial entrepreneur, 27 years of CEGID expertise with a specialty-retail focus (fashion, luxury, distribution). Leads product expertise and business-workflow integration. Email: francois.mam@nexerp.fr
+## Founder
 
 **Richard YI** — Co-founder, Enterprise Architect & Author. 26 years of enterprise-architecture experience. Leads AI strategy, agentic architecture, the AI Factory and production governance. Email: richard.yi@nexerp.fr
 
