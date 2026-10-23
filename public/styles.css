@@ -2147,6 +2147,57 @@ a:hover { color: var(--green); }
     max-width: 820px;
 }
 
+/* ---------- V3 · AI Factory à 5 couches : pile (Applications → Infrastructure) ---------- */
+.layers-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 860px;
+    margin: 0 auto 32px;
+}
+.layer-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-left: 3px solid var(--gold-light);
+    border-radius: var(--radius);
+    padding: 24px 28px;
+}
+.layer-num {
+    flex: 0 0 auto;
+    font-family: var(--serif);
+    font-size: 34px;
+    font-weight: 600;
+    color: var(--gold-light);
+    line-height: 1;
+    min-width: 44px;
+}
+.layer-body h3 {
+    font-family: var(--serif);
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+}
+.layer-body p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+    line-height: 1.65;
+    margin: 0;
+}
+.layer-body a {
+    color: var(--gold-light);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.layer-body a:hover { color: #fff; }
+@media (max-width: 640px) {
+    .layer-card { flex-direction: row; gap: 16px; padding: 20px; }
+    .layer-num { font-size: 28px; min-width: 34px; }
+}
+
 /* ---------- V2 · Fondateur unique : carte centrée, largeur maîtrisée ---------- */
 .founders-solo {
     grid-template-columns: minmax(0, 460px);
