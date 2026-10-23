@@ -2313,3 +2313,14 @@ a:hover { color: var(--green); }
     .footer-cols { grid-template-columns: 1fr; }
     .contact-form, .contact-info { padding: 24px; }
 }
+
+/* ---------- Pied de page : logo en couleur sur carte blanche ----------
+   Le PNG du logo a un fond blanc opaque : le filtre brightness(0) invert(1) le rendait
+   en rectangle blanc. Même traitement que le badge OCA (.footer-oca img). */
+.footer-logo {
+    filter: none;
+    background: #fff;
+    height: 72px;
+    padding: 8px 10px;
+    border-radius: 2px;
+}
